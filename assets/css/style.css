@@ -36,11 +36,12 @@ body {
     top: 0;
     right: 0;
     border: 2.5rem solid;
-    border-color: black transparent transparent;
+    border-color: rgba(33, 37, 41, 1) transparent transparent;
     transform: translateX(50%)
 }
 .card-img-top{
     width: 100px;
+    filter: invert(11%) sepia(9%) saturate(722%) hue-rotate(169deg) brightness(100%) contrast(93%);
 }
 
 .card:hover {
@@ -61,5 +62,5 @@ body {
     box-shadow: none !important;
 }
 .footer-preto {
-    background-color: black;
+    background-color: rgba(33, 37, 41, 1);
 }
